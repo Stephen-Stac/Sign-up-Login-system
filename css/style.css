@@ -1,0 +1,37 @@
+
+
+nav {
+    display: flex;
+    
+    background-color: #333; /* Background color for the nav bar */
+    padding: 10px 20px; /* Padding around the nav bar */
+    border-radius: 8px; /* Rounded corners for the nav bar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for a subtle 3D effect */
+    color: white;
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Arrange items horizontally */
+    gap: 20px; /* Space between nav items */
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0; /* Remove default margin */
+}
+
+nav a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Padding inside each link */
+  
+}
+
+nav a:hover {
+    background-color: #575757; /* Background color on hover */
+}
